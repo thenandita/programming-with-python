@@ -7,7 +7,7 @@ print("Printing items from makeup_box")
 index = 0
 while index < size:
     item = makeup_box[index]
-    print(item)
+    print("I have " + item)
 
     if item == "blush":
         break
