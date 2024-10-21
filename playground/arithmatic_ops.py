@@ -4,10 +4,10 @@ print(x)
 z = x + 1  # z = 11
 print(z)
 
-z = z + 1 # z = 12
+z = z + 1  # z = 12
 print(z)
 
-z += 1 # z = 13
+z += 1  # z = 13
 print(z)
 
 i = 0

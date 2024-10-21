@@ -39,7 +39,5 @@ food = ["chicken", "mutton", "beef"]
 dishes = ["curry", "steak", "kebab"]
 
 for meats in food:
-  for items in dishes:
-    print(meats, items)
-
-
+    for items in dishes:
+        print(meats, items)

@@ -6,7 +6,7 @@ print(my_tuple)
 my_tuple = ("corn", "tomato", "cabbage")
 print(len(my_tuple))
 
-my_tuple = ( 8 , "true", 24, "tomato")
+my_tuple = (8, "true", 24, "tomato")
 print(my_tuple)
 
 my_tuple = ("corn", "tomato", "cabbage", "potato", "carrot")
@@ -50,7 +50,7 @@ print(my_tuple)
 
 my_tuple = ("corn", "tomato", "cabbage")
 veg = list(my_tuple)
-veg.remove ("corn")
+veg.remove("corn")
 my_tuple = tuple(veg)
 
 print(my_tuple)
@@ -71,13 +71,21 @@ print(boil)
 print(curry)
 print(fry)
 
-veg_tuple= ("corn", "tomato", "cabbage",)
+veg_tuple = (
+    "corn",
+    "tomato",
+    "cabbage",
+)
 veg2_tuple = ("carrot", "broccoli", "spinach")
 
 veg3_tuple = veg_tuple + veg2_tuple
 print(veg3_tuple)
 
-veg = ("corn", "tomato", "cabbage",)
+veg = (
+    "corn",
+    "tomato",
+    "cabbage",
+)
 my_tuple = veg * 2
 print(my_tuple)
 
@@ -98,4 +106,3 @@ veg = 1
 while veg < len(my_tuple):
     print(my_tuple[veg])
     veg = veg + 3
-

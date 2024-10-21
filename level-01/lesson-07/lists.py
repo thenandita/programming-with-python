@@ -16,7 +16,7 @@ veg_list = ["onion", "cabbage", "potato"]
 print(veg_list[-2])
 
 veg_list = ["onion", "cabbage", "potato", "spinach"]
-print(veg_list[1]) # first item index 0
+print(veg_list[1])  # first item index 0
 
 veg_list = ["onion", "cabbage", "potato", "spinach", "broccoli", "carrot", "corn"]
 print(veg_list[2:5])
@@ -26,7 +26,13 @@ print(veg_list)
 veg_list.append("tomato")
 print(veg_list)
 
-veg_list = ["onion", "cabbage", "potato", "spinach", "tomato",]
+veg_list = [
+    "onion",
+    "cabbage",
+    "potato",
+    "spinach",
+    "tomato",
+]
 veg_list.insert(3, "corn")
 print(veg_list)
 
